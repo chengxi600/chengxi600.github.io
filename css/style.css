@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/* Home */
+
+#profile-pic {
+    max-width: 50%;
+    height: auto;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 20px;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+    color: #912222;
+  }
+
+.fa-github {
+  color: #000000;
+}
+
+.fa-wordpress {
+    color: #21759b;
+}
+
+.fa-facebook:hover,
+.fa-wordpress:hover, 
+.fa-github:hover, 
+.fa-instagram:hover {
+  color: #d5d5d5;
+}
+
+.home {
+    margin: 50px;
+}
+
+/* Responsiveness */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (mid-width: 992px) {
+
+}
+
+@media (mid-width: 1200px) {
+
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+

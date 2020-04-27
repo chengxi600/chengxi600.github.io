@@ -4,12 +4,61 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!--Bootstrap CSS-->
+        <!--Bootstrap CSS Fontawesome-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <title>Cheng Xi Tsou</title>
     </head>
     <body>
-        <h1>Cheng Xi Tsou</h1>
+        <!--Navigation bar-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light stick-top">
+            <div class="container-fluid">
+                <!--Replace this with an icon-->
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--Home page-->
+        <div class="container-fluid padding home">
+            <div class="row padding text-center home">
+                <div class="col-lg-6">
+                    <img src="img/profile-pic.png" class="image-fluid" id="profile-pic">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-4">Cheng Xi Tsou</h1>
+                    <p>Computer Science student at Northeastern University, class of 2023.</p> 
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-wordpress"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>   
+                </div>
+            </div>
+            <hr>
+        </div>
 
         <!--jQuery, Popper.js, BootstrapJS-->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
