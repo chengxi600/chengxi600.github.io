@@ -71,18 +71,28 @@ html {
     margin-top: 25%;
 }
 
-.card-second {
-    margin-top: 20%;
+.card {
+    padding: 2%;
 }
 
 /* Responsiveness */
 @media (min-width: 576px) {
-
+    .background-home {
+        height: 100%;
+    }
+    
+    .home {
+        padding-top: 0%;
+    }
 }
 
 @media (min-width: 768px) {
     .background-home {
         height: 100%;
+    }
+
+    .home {
+        padding-top: 1%;
     }
 }
 
@@ -95,6 +105,10 @@ html {
 @media (min-width: 1200px) {
     #projects {
         margin-top: 20%;
+    }
+
+    .background-home {
+        height: 95%;
     }
 }
 
