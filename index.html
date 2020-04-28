@@ -11,8 +11,35 @@
         <title>Cheng Xi Tsou</title>
     </head>
     <body>
+        <!--Home page-->
+        <div class="background-home">
+            <div class="container-fluid home">
+                <div class="row padding text-center home">
+                    <div class="col-md-6">
+                        <img src="img/home/profile-pic.png" class="image-fluid" id="profile-pic">
+                    </div>
+                    <div class="col-md-6 home-content">
+                        <h3 class="display-4">Cheng Xi Tsou</h1>
+                        <p class="lead">Second-year Candidate for B.S. in Computer Science at Northeastern University, class of 2023.</p> 
+                        <div class="social">
+                            <a href="https://www.facebook.com/chengxi.tsou"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/chengxitsou/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://github.com/chengxi600"><i class="fab fa-github"></i></a>
+                            <a href="https://noviceprogramming667661022.wordpress.com/"><i class="fab fa-wordpress"></i></a>
+                            <a href="https://www.linkedin.com/in/cheng-xi-tsou-034626174/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#projects"><i class="fas fa-caret-square-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="projects"></div>
+
         <!--Navigation bar-->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
                 <!--Replace this with an icon-->
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -36,35 +63,10 @@
             </div>
         </nav>
 
-        <!--Home page-->
-        <div class="background-home">
-            <div class="container-fluid home">
-                <div class="row padding text-center home">
-                    <div class="col-md-6">
-                        <img src="img/home/profile-pic.png" class="image-fluid" id="profile-pic">
-                    </div>
-                    <div class="col-md-6 home-content">
-                        <h3 class="display-4">Cheng Xi Tsou</h1>
-                        <p class="lead">Second-year Candidate for B.S. in Computer Science at Northeastern University, class of 2023.</p> 
-                        <div class="social">
-                            <a href="https://www.facebook.com/chengxi.tsou"><i class="fab fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/chengxitsou/"><i class="fab fa-instagram"></i></a>
-                            <a href="https://github.com/chengxi600"><i class="fab fa-github"></i></a>
-                            <a href="https://noviceprogramming667661022.wordpress.com/"><i class="fab fa-wordpress"></i></a>
-                            <a href="https://www.linkedin.com/in/cheng-xi-tsou-034626174/"><i class="fab fa-linkedin"></i></a>
-                        </div>
-                        <br>
-                        <button type="button" class="btn btn-outline-light btn-lg">RESUME</button>   
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!--Projects-->
-        <div id="projects"></div>
         <div class="container-fluid padding projects">
             <div class="row text-center">
-                <div class="col-12">
+                <div class="col-12" id="projects">
                     <h1 class="display-4">Projects</h1>
                     <br>
                     <p>Here are some of my projects I've worked on over the past years.</p>
@@ -163,5 +165,6 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="js/home.js"></script>
     </body>
 </html>

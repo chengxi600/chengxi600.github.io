@@ -23,6 +23,12 @@ body {
     padding: 15px;
 }
 
+.fa-caret-square-down {
+    color: #ffffff;
+    font-size: 4.5em;
+    margin-top: 5%;
+}
+
 .fa-facebook, 
 .fa-instagram,
 .fa-linkedin,
@@ -100,7 +106,24 @@ body {
 }
 
 @media (min-width: 1200px) {
+    .fa-caret-square-down {
+        color: #ffffff;
+        font-size: 4.5em;
+        box-shadow: 0 0 0 0 #000000;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
 
+    .fa-caret-square-down:hover,
+    .fa-caret-square-down:focus,
+    .fa-caret-square-down:active {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
 }
 
 
