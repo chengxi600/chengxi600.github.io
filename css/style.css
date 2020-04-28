@@ -2,6 +2,7 @@
 
 /* Navigation Bar */
 
+
 /* Home */
 
 #profile-pic {
@@ -14,28 +15,13 @@
     padding: 20px;
 }
 
-.fa-facebook {
-    /* color: #3b5998; */
-    color: #000000;
-}
-
-.fa-instagram {
-    /* color: #912222; */
-    color: #000000;
-}
-
+.fa-facebook, 
+.fa-instagram,
+.fa-linkedin,
+.fa-wordpress,
 .fa-github {
-    /* color: #000000; */
-    color: #000000;
-}
-
-.fa-wordpress {
-    /* color: #21759b; */
-    color: #000000;
-}
-
-.fa-linkedin {
-    color: #000000;
+    color: #ffffff;
+    opacity: 0.6;
 }
 
 .fa-facebook:hover,
@@ -44,6 +30,7 @@
 .fa-instagram:hover,
 .fa-linkedin:hover {
   color: #ffffff;
+  opacity: 1;
 }
 
 .padding {
@@ -55,16 +42,20 @@
 }
 
 .home h1 {
-    font-weight: 400;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    color: white;
 }
 
 .home p {
-    font-weight: 300;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    color: white;
 }
 
 .background-home {
     background-image: url("../img/background-original.jpg");
-    position: fixed;
+    position: absolute;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -80,11 +71,11 @@
 
 }
 
-@media (mid-width: 992px) {
+@media (min-width: 992px) {
 
 }
 
-@media (mid-width: 1200px) {
+@media (min-width: 1200px) {
 
 }
 
