@@ -75,7 +75,7 @@ body {
     background-attachment: fixed;
     background-origin: initial;
     background-clip: initial;
-    background-position: center;
+    background-position: center center;
     height: 100vh;
 }
 
