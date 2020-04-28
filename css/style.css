@@ -56,13 +56,23 @@ html {
     color: white;
 }
 
-.background-home {
-    background-image: url("../img/home/background-original.jpg");
+/* .background-home {
+    background: url("../img/home/background-original.jpg");
     position: absolute;
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 110%;
+} */
+
+.background-home {
+    background-image: url(../img/home/background-original.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-position: 50% 0px;
+    height: 760px;
 }
 
 /* Projects */
@@ -71,29 +81,17 @@ html {
     margin-top: 25%;
 }
 
-.card {
-    padding: 2%;
+.projects h1 {
+    font-weight: 400;
 }
 
 /* Responsiveness */
 @media (min-width: 576px) {
-    .background-home {
-        height: 100%;
-    }
-    
-    .home {
-        padding-top: 0%;
-    }
+
 }
 
 @media (min-width: 768px) {
-    .background-home {
-        height: 100%;
-    }
 
-    .home {
-        padding-top: 1%;
-    }
 }
 
 @media (min-width: 992px) {
@@ -105,10 +103,6 @@ html {
 @media (min-width: 1200px) {
     #projects {
         margin-top: 20%;
-    }
-
-    .background-home {
-        height: 95%;
     }
 }
 
