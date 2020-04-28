@@ -19,7 +19,7 @@ body {
 }
 
 .social a {
-    font-size: 60px;
+    font-size: 8vw;
     padding: 15px;
 }
 
@@ -61,6 +61,8 @@ body {
     color: white;
 }
 
+
+
 .background-home {
     background-image: url(../img/home/background-original.jpg);
     background-size: cover;
@@ -83,7 +85,14 @@ body {
 }
 
 @media (min-width: 768px) {
+    #profile-pic {
+        max-width: 50%;
+        height: auto;
+    }
 
+    .social a {
+        font-size: 4.5em;
+    }
 }
 
 @media (min-width: 992px) {
