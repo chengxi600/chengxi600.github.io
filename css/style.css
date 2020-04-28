@@ -19,8 +19,8 @@ body {
 }
 
 .social a {
-    font-size: 4.5em;
-    padding: 20px;
+    font-size: 60px;
+    padding: 15px;
 }
 
 .fa-facebook, 
@@ -67,15 +67,11 @@ body {
     background-attachment: fixed;
     background-origin: initial;
     background-clip: initial;
-    background-position: 50% 0px;
+    background-position: center;
     height: 100vh;
 }
 
 /* Projects */
-
-.projects {
-    margin-top: 25%;
-}
 
 .projects h1 {
     font-weight: 400;
@@ -91,15 +87,11 @@ body {
 }
 
 @media (min-width: 992px) {
-    #projects {
-        margin-top: 20%;
-    }
+
 }
 
 @media (min-width: 1200px) {
-    #projects {
-        margin-top: 20%;
-    }
+
 }
 
 
