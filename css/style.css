@@ -71,7 +71,7 @@ html {
     margin-top: 25%;
 }
 
-#projects {
+.card-second {
     margin-top: 20%;
 }
 
@@ -81,16 +81,23 @@ html {
 }
 
 @media (min-width: 768px) {
-
+    .background-home {
+        height: 100%;
+    }
 }
 
 @media (min-width: 992px) {
-
+    #projects {
+        margin-top: 20%;
+    }
 }
 
 @media (min-width: 1200px) {
-
+    #projects {
+        margin-top: 20%;
+    }
 }
+
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
