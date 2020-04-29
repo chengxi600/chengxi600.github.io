@@ -150,6 +150,28 @@ footer p {
     display: inline-block;
 }
 
+/* To top Arrow */
+.no-display {
+    display: none;
+}
+
+.block-display {
+    display: none;
+}
+
+.up-arrow {
+    font-size: 3em;
+    bottom: 5%;
+    right: 5%;
+    position: fixed;
+}
+
+.fa-caret-square-up {
+    color: #000000;
+    opacity: 0.5;
+}
+
+
 /* Responsiveness */
 @media (min-width: 576px) {
 
@@ -208,6 +230,10 @@ footer p {
 
     .img-rotmg {
         content: url('../img/projects/rotmg.gif');
+    }
+
+    .block-display {
+        display: block;
     }
 }
 
