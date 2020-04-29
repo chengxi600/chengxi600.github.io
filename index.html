@@ -4,10 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!--Bootstrap CSS Fontawesome-->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- BootstrapCSS jQuery Popper.js BootstrapJS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!-- CSS Fontawesome Other-->
         <link rel="stylesheet" href="css/style.css">
-        <script src="js/all.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
         <title>Cheng Xi Tsou</title>
     </head>
     <body>
@@ -19,7 +25,7 @@
                         <img src="img/home/profile-pic.png" class="image-fluid" id="profile-pic">
                     </div>
                     <div class="col-md-6 home-content">
-                        <h3 class="display-4">Cheng Xi Tsou</h1>
+                        <h3 class="display-4">Cheng Xi Tsou</h3>
                         <p class="lead">Second-year Candidate for B.S. in Computer Science at Northeastern University, class of 2023.</p> 
                         <div class="social">
                             <a href="https://www.facebook.com/chengxi.tsou"><i class="fab fa-facebook slide-effect"></i></a>
@@ -57,7 +63,7 @@
                             <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#to-contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -157,21 +163,41 @@
                         </div>
                     </div>
                 </div>
-                <hr>
+                <hr id="to-contact">
             </div>
         </div>
 
-        <div class="contacts">
-            <div class="container-fluid padding">
-                <div class="row text-center">
+        <!--Contact-->
 
+        <div class="container-fluid padding contacts">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="padding-contact">Contact</h1>
+                    <hr class="hr-contacts padding-contact">
+                    <p class="padding-contact">Feel free to contact me if you have any questions or would like to collaborate on any projects!</p>
+                    <p class="padding-contact">You can email me at chengxi600@gmail.com</p>
                 </div>
             </div>
         </div>
 
-        <!--jQuery, Popper.js, BootstrapJS-->
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery-3.5.0.slim.min.js"></script>
+        <!--Footer-->
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <a href="https://www.facebook.com/chengxi.tsou"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/chengxitsou/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/chengxi600"><i class="fab fa-github"></i></a>
+                        <a href="https://noviceprogramming667661022.wordpress.com/"><i class="fab fa-wordpress"></i></a>
+                        <a href="https://www.linkedin.com/in/cheng-xi-tsou-034626174/"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="far fa-file"></i></a>
+                        <p>Made with Bootstrap by Cheng Xi Tsou</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Other scripts -->
         <script src="js/home.js"></script>
     </body>
 </html>
