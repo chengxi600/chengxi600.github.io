@@ -6,7 +6,7 @@ const vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0
 const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 
 window.addEventListener('scroll', function(e) {
-    if(window.pageYOffset > vh) {
+    if(window.pageYOffset > vh + 10) {
         $navbar.classList.add('fixed-top');
     } else {
         $navbar.classList.remove('fixed-top');
