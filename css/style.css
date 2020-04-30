@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html, body {
-    scroll-behavior: smooth;
     height: 100%;
     width: 100%;
     font-family: 'Poppins', sans-serif;
@@ -169,8 +168,20 @@ footer p {
 .fa-caret-square-up {
     color: #000000;
     opacity: 0.5;
+    box-shadow: 0 0 0 0 #000000;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
 
+.fa-caret-square-up:hover {
+    opacity: 1;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
 
 /* Responsiveness */
 @media (min-width: 576px) {
