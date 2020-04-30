@@ -57,13 +57,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        <li id="nav-home" class="nav-item">
                             <a class="nav-link" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li id="nav-projects" class="nav-item">
                             <a class="nav-link" href="#projects">Projects</a>
                         </li>
-                        <li class="nav-item">
+                        <li id="nav-contact" class="nav-item">
                             <a class="nav-link" href="#to-contact">Contact</a>
                         </li>
                     </ul>
@@ -91,7 +91,7 @@
                         <div class="col-md-4">
                             <div class="card h-100">
                                 <img class="card-img-top" src="img/projects/svmlol.png">
-                                <div class="card-body mb-auto">
+                                <div class="card-body">
                                     <h4 class="card-title">SVMLoL</h4>
                                     <p class="card-text">SVMLoL is a support vector machine that 
                                         classifies League of Legends player positions.
@@ -204,16 +204,12 @@
         <a class="no-display up-arrow" href="#"><i class="fas fa-caret-square-up"></i></a>
 
         <!-- Other scripts -->
-        <script src="js/to-top.js"></script>
-        <script src="js/home.js"></script>
-        <script src="js/smoothscrolling.js"></script>
-        <script src="js/smooth-scroll.polyfills.min.js"></script>
-        <script>
-            var scroll = new SmoothScroll('a[href*="#"]', {
-                speed: 1000,
-                speedAsDuration: false,
-                easing: 'easeInOutCubic'
-            });
-        </script>
+        <script src="js/effects/to-top.js"></script>
+        <script src="js/effects/home.js"></script>
+        <script src="js/effects/smoothscrolling.js"></script>
+        <script src="js/effects/smooth-scroll.polyfills.min.js"></script>
+        <script src="js/effects/smoothscrolling.js"></script>
+        <script src="js/effects/collapse-on-click.js"></script>
+        <script src="js/effects/parallax.js"></script>
     </body>
 </html>

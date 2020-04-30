@@ -79,7 +79,7 @@ html, body {
 
 
 
-.background-home {
+/* .background-home {
     background-image: url(../img/home/background-original.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -88,6 +88,19 @@ html, body {
     background-position: center center;
     height: 100vh;
     background-repeat: no-repeat;
+} */
+
+.background-home {
+    background: url(../img/home/background-original.jpg);
+	background-color: #222;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+	padding: 0;
 }
 
 /* Projects */
